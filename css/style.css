@@ -14,13 +14,16 @@ body {
 
 /* Шапка  */
 
+
 .header-1 {
+
   display: flex;
   justify-content: center;
   height: 42px;
+  width: 940px;
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
-  background-color: #293449;
+  
   font-family: 'Cuprum', sans-serif;
 }
 .logo-inner  {
@@ -135,17 +138,27 @@ background-color:#212a3a;
    padding: 0;
    list-style:none;
  }
-.inner-contact { 
+ .header-mine {
   background-color: #f1f5f7;
+  min-width: 940px;
+ }
+ .header-0 {
+  background-color: #293449;
+ }
+
+
+.inner-contact { 
   height: 280px;
   padding: 0;
-  margin: 0;
+
 }
+
+
 .inner-contact-block {
   margin: 0 auto;
   width: 940px;
-  padding: 0;
-}
+  padding: 0; }
+
 .inner-contact-check li {
   display: inline-block;
   vertical-align: top;
@@ -238,7 +251,7 @@ background-color:#212a3a;
  
 .menu-inner {
   margin: 0 auto;
-  max-width: 940px;
+  width: 940px;
   color: #fff;
   margin-top: 60px;
 }
@@ -259,7 +272,8 @@ background-color:#212a3a;
 .product-1,
 .product-2 {
   padding: 0;
-  flex-grow: 1;
+  flex-grow: 0;
+  width: 275px;
   padding: 25px 0 0 25px;
   font-size: 25px;
   font-weight: bold;
@@ -815,6 +829,7 @@ display: block;
   }
 
 .footer-0 {
+  
   color: white;
 }   
 
@@ -822,9 +837,11 @@ display: block;
   background-color: #32425c;
   margin-top: 85px;
   padding-bottom: 40px;
+  min-width: 940px;
 }  
 .footer-2 {
   background-color: #293449;
+  min-width: 940px;
 
 }  
 .footer-inner {
