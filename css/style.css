@@ -200,6 +200,15 @@ background-color:#212a3a;
   outline: none;
   font-size: 20px;
 }
+.submit::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/vk-icon.svg);
+  color: black;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
 .submit:hover {
  color: #f0515c;
 }
@@ -649,6 +658,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 .service {
   background-color: #f5f8fa;
   margin-top: 85px;
+  min-width: 940px;
   
     /*font-family: "Arial",sans-serif;
     font-family: 'PT Sans', sans-serif;*/
@@ -708,7 +718,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   width: 15px;
   height: 284px;
   top: -40px;
-  left: 222px;
+  left: 223px;
   background-image: url(../img/shadow118.png);
   background-repeat: no-repeat;
 
@@ -938,22 +948,30 @@ display: block;
   border-radius: 50%;
   margin: 0px 5px;
 }
-.info-menu_slider {
-  position: relative;
-}
-
-.info-menu_slider::after {
-  position: absolute;
-  content: "";
-  width: 15px;
-  height: 284px;
-  top: -40px;
-  left: 222px;
-  background-image: url(../img/shadow118.png);
+.social_vk {
+  background-image: url(../img/vk-icon.svg);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 
+.social_fb {
+  background-image: url(../img/fb-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.social_insta {
+  background-image: url(../img/insta-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 
 }
+
+
+
+
+
+
 
  
 
